@@ -1,0 +1,34 @@
+/* regole generali */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* centratura */
+.container-centratura{
+    width: 70%;
+    margin: auto;
+}
+
+/* regole header */
+header{
+    background-color: rgb(43, 61, 79);
+    height: 85px;
+    color: white;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+
