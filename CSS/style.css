@@ -31,7 +31,7 @@ header{
     justify-content: space-between;
 }
 
-/* regole jumbotron */
+/* regole sezione jumbotron */
 .jumbotron{
     background-color: rgb(26, 188, 156);
     height: 550px;
@@ -49,7 +49,7 @@ header{
 }
 
 .star{
-    width: 35%;
+    width: 40%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@ header{
 
 .line{
     height: 4px;
-    width: 130px;
+    width: 160px;
     background-color: white;
     border-radius: 20px;
 }
@@ -71,4 +71,27 @@ header{
 
 .wording > span{
     font-size: 25px;
+}
+
+/* regole sezione portfolio */
+.portfolio{
+    padding: 50px;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.portfolio > .container-centratura > h1{
+    font-size: 50px;
+}
+
+.line-2{
+    height: 4px;
+    width: 160px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 20px;
+}
+
+.col-4 > img{
+    max-width: 100%;
+    border-radius: 20px;
 }
