@@ -31,4 +31,44 @@ header{
     justify-content: space-between;
 }
 
+/* regole jumbotron */
+.jumbotron{
+    background-color: rgb(26, 188, 156);
+    height: 550px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
 
+.jumbotron > .container-centratura > div > h1{
+    font-size: 60px;
+}
+
+.avatar{
+    max-width: 22%;
+}
+
+.star{
+    width: 35%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.line{
+    height: 4px;
+    width: 130px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.star > i{
+    font-size: 30px;
+}
+
+.wording > span{
+    font-size: 25px;
+}
