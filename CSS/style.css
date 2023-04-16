@@ -91,7 +91,8 @@ header{
     border-radius: 20px;
 }
 
-.col-4 > img{
+.col-lg-4 > img , .col-md-6 > img , .col-sm-12 > img{
     max-width: 100%;
     border-radius: 20px;
 }
+
