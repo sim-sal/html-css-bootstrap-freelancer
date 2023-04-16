@@ -133,3 +133,27 @@ header{
 .about > .container-centratura{
     padding-top: 70px;
 }
+
+/* regole sezione contact-me */
+.contact-me{
+    color: rgb(51, 51, 51);
+    height: 600px;
+}
+
+.contact-me > .container-centratura > h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-me > .container-centratura{
+    padding-top: 50px;
+}
+
+.send{
+    background-color: rgb(26, 188, 156);
+    padding: 7px 13px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
