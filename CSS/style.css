@@ -96,3 +96,40 @@ header{
     border-radius: 20px;
 }
 
+/* regole sezione about */
+.about{
+    background-color: rgb(26, 188, 156);
+    height: 450px;
+    color: white;
+    text-align: center;
+}
+
+.about > .container-centratura > h1{
+    font-size: 50px;
+}
+
+.about-text{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    text-align: left;
+    font-size: 18px;
+    gap: 40px;
+}
+
+.download{
+    background-color: rgb(26, 188, 156);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+}
+
+.download > i{
+    margin-right: 5px;
+}
+
+.about > .container-centratura{
+    padding-top: 70px;
+}
