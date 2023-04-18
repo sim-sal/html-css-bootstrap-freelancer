@@ -99,6 +99,7 @@ header{
 .download{
     background-color: rgb(26, 188, 156);
     padding: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     border: 1px solid white;
     color: white;
@@ -116,10 +117,10 @@ header{
 /* regole sezione contact-me */
 .contact-me{
     color: rgb(51, 51, 51);
-    height: 600px;
+    height: 700px;
 }
 
-.contact-me > .container-centratura > h1{
+.contactme-titolo{
     font-size: 50px;
     text-align: center;
 }
@@ -140,5 +141,20 @@ header{
 /* regole sezione contatti */
 .contatti{
     background-color: #3A556E;
-    height: 100px;
+    height: 200px;
+    color: white;
+}
+
+.contatti-up{
+    font-size: 25px;
+}
+
+.start-bootstrap{
+    color: rgb(27, 187, 155);
+}
+
+@media screen and (max-width:768px) {
+    .contatti{
+        height: 400px;
+    }
 }
