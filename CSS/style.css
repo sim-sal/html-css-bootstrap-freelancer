@@ -153,6 +153,12 @@ header{
     color: rgb(27, 187, 155);
 }
 
+.icons{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 @media screen and (max-width:768px) {
     .contatti{
         height: 400px;
