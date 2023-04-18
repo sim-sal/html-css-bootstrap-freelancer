@@ -7,8 +7,13 @@
 
 /* centratura */
 .container-centratura{
-    width: 70%;
+    width: 80%;
     margin: auto;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
 }
 
 /* regole header */
@@ -156,4 +161,10 @@ header{
     border: none;
     color: white;
     font-size: 18px;
+}
+
+/* regole sezione contatti */
+.contatti{
+    background-color: #3A556E;
+    height: 100px;
 }
