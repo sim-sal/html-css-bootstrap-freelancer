@@ -12,28 +12,11 @@
     height: 100%;
 }
 
-.container{
-    height: 100%;
-}
-
 /* regole header */
 header{
     background-color: rgb(43, 61, 79);
     height: 85px;
     color: white;
-}
-
-.header-container{
-    display: flex;
-    justify-content: space-between;
-    height: 85px;
-    align-items: center;
-}
-
-.header-right{
-    display: flex;
-    width: 25%;
-    justify-content: space-between;
 }
 
 /* regole sezione jumbotron */
@@ -109,17 +92,8 @@ header{
     text-align: center;
 }
 
-.about > .container-centratura > h1{
+.about-titolo{
     font-size: 50px;
-}
-
-.about-text{
-    display: flex;
-    max-width: 90%;
-    margin: auto;
-    text-align: left;
-    font-size: 18px;
-    gap: 40px;
 }
 
 .download{
@@ -135,7 +109,7 @@ header{
     margin-right: 5px;
 }
 
-.about > .container-centratura{
+.about > .container{
     padding-top: 70px;
 }
 
